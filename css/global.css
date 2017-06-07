@@ -1,0 +1,196 @@
+@import url('css_reset.css');
+@import url('fonts.css');
+
+
+
+
+
+
+/*global*/
+
+html,body { height: 100%; }
+#wrapper { width: 100%; height: 100%; position: relative; }
+.mainCntr { width: 100%;  display: block; height: 100%;  min-width: 978px; z-index: -1; float: left; }
+.sideBar { width: 40%; float: right; height: 97%; background: white; opacity: 0.8; z-index: -1; margin-right: 3%; overflow: scroll; } 
+
+/*end of global*/
+
+
+
+
+
+
+
+/*fonts*/
+
+body { font-size: 11px; font-family: "Conv_FuturaLT"; -webkit-font-smoothing: antialiased; }
+h1 { font-family: "Conv_FuturaLT"; }
+h2 { font-family: "Conv_FuturaLT-Light"; }
+h3 { font-family: "Conv_FuturaLT-Bold"; }
+
+.title { font-size: 28px; line-height: 16px; padding: 75px 0px 0px; padding-top: 75px; padding-bottom: 15px; text-transform: uppercase; }
+.normal { font-family: "Conv_FuturaLT"; font-size: 12px; line-height: 15px; }
+.sub { font-family: "Conv_FuturaLT-Bold"; font-size: 12px; line-height: 15px; /*padding: 0px 50px 15px;*/ }
+
+/*end of fonts*/
+
+
+
+
+
+
+
+
+
+/*links*/
+
+#menu A:link {text-decoration: none; color: #BE1E2D;}
+#menu A:visited {text-decoration: none; color: #BE1E2D;}
+#menu A:active {text-decoration: none; color: #BE1E2D;}
+#menu A:hover {text-decoration: none; color: #BE1E2D;}
+
+.link A:link {text-decoration: none; color: #231F20;}
+.link A:visited {text-decoration: none; color: #231F20;}
+.link A:active {text-decoration: none; color: #231F20;}
+.link A:hover {text-decoration: none; color: #231F20;}
+
+.subLink A:link {text-decoration: none; color: #231F20; font-family: "Conv_FuturaLT";}
+.subLink A:visited {text-decoration: none; color: #231F20; font-family: "Conv_FuturaLT";}
+.subLink A:active {text-decoration: none; color: #231F20; font-family: "Conv_FuturaLT";}
+.subLink A:hover {text-decoration: none; color: #231F20; font-family: "Conv_FuturaLT";}
+
+/*end of links*/
+
+
+
+.socialMedia { position: absolute; top: 30px; left: 30px; }
+
+
+
+
+
+/*menu*/
+
+#menuCntr { position: absolute; bottom: -30%; left: 0px; width: 100%; height: 65px; min-width: 978px; z-index: 1; }
+
+#logo { width: 16%; height: 100%; float: left; margin-right: 0.5%; background: white; opacity: 0.6; }
+#logo h1 { font-size: 21px; color: #404041; text-transform: uppercase; padding-left: 28px; }
+#logo h2 { font-size: 14px; text-transform: uppercase; color: #BE1E2D; padding-left: 28px; padding-top: 5px; }
+
+#menu { width: 83.5%; height: 100%; float: left; background: white; opacity: 0.6;}
+#menu ul { width: 47.904191616766%;  float: right; margin-right: 3.6%; }
+#menu ul li { width: 20%; float: right; margin-top: 25px; font-family: "Conv_FuturaLT-Bold"; text-transform: uppercase; font-size: 12px; text-align: center; }
+
+/*end of menu*/
+
+
+
+
+
+
+
+
+
+
+/* page 1 / biography*/
+
+/*#page1 { background: url(../images/biography/bg3.png) no-repeat top left; background-size: 100% auto; z-index: 0; }*/
+
+#biography { margin-right: -70%;}
+/*#biography { position: absolute; right: 3%; bottom: 20px; width: 40%; height: 100%; background: white; opacity: 0.8; z-index: -1;}*/
+/*#biography { width: 40%; float: right; height: 97%; background: white; opacity: 0.8; z-index: -1; margin-right: 3%; overflow: scroll;}*/
+
+
+#biography .textCntr { height: 85%; overflow: scroll; width: 80%; margin: 0 auto; }
+#biography .textCntr .sub { margin-bottom: 15px; }
+
+/*#biography p { padding: 0px 50px; }
+#biography p.sub { padding-bottom: 15px; }*/
+
+
+/*end of page 1 / biography*/
+
+
+
+
+
+
+
+
+
+
+/*page 2 / media*/
+/*#page2 { background: url(../images/bg/bg2.jpg) no-repeat top left; background-size: 100% auto; z-index: 0; }*/
+/*#page2 { height: 100%; width: 100%; float: left; }*/
+
+#photoCntr { width: 74%; height: 100%; float: left; }
+#mozaik { width: 80%; margin: 0 auto; height: 80%; background: black; margin-top: 10%; }
+#media { width: 23%; background: white; margin-right: -70%; }
+#media .textCntr { height: 85%; width: 80%; margin: 0 auto; }
+#media .textCntr .link { padding-top: 10px; }
+
+/*end of page 2 / media*/
+
+
+
+
+
+
+
+
+
+
+
+/*page 3 / soundlcoud music */
+#soundCloudCntr { width: 74%; float: left; margin-top: 115px; height: 60%; overflow: scroll; }
+#soundCloudCntr .soundCloudItem { width: 80%; margin-left: 10%; float: left; margin-bottom: 36px; }
+.soundCloudItem .SC { width: 100%; height: 167px;}
+.soundCloudItem h3,p { font-size: 12px; line-height: 15px; font-family: "Conv_FuturaLT-Bold"; }
+.soundCloudItem h3 { padding: 10px 0px 0px 0px; }
+
+#soundCloudBar { width: 20%; background: red;}
+
+/*end of page 3 / soundcloud*/
+
+
+/*page 4 agenda*/
+#agenda { margin-right: -70%; }
+#agenda .textCntr { height: 85%; width: 80%; margin: 0 auto; overflow: scroll; }
+#agenda .textCntr .title { margin-bottom: 25px; }
+#agenda #agendaItems { width: 100%; float: left; }
+#agenda #agendaItems .agendaItem { width: 100%; float: left; margin-bottom: 20px; }
+#agenda #agendaItems .agendaDate { width: 40%; float: left; }
+#agenda #agendaItems .agendaInfo { width: 60%; float: right; }
+#agenda #agendaItems .agendaInfo p { font-family: "Conv_FuturaLT"; }
+/*end of page 4 agenda*/
+
+/*page 5 contact*/
+#contact { margin-right: -70%; }
+#contact .textCntr { height: 85%; width: 80%; margin: 0 auto; overflow: scroll; }
+#contact .textCntr .title { padding-bottom: 25px; }
+#contact #address { margin-bottom: 15px; float: left; width: 100%; }
+#contact p { font-family: "Conv_FuturaLT"; }
+#contact p.bold { font-family: "Conv_FuturaLT-Bold"; }
+
+#contact #booking { margin-bottom: 15px; float: left; width: 100%; }
+
+#contact .formStyle input { width: 95%; float: left; border: 1.5px solid #BE1E2D; background-color: white; height: 30px; }
+#contact .formStyle textarea { width: 95%; float: left; min-height: 75px; border: 1.5px solid #BE1E2D; }
+#contact .formStyle p { float: left; padding: 15px 0px 5px 0px; font-family: "Conv_FuturaLT-Bold"; }
+/*end of page 5 contact*/
+/*media queries*/
+
+@media only screen and (min-width: 800px) {
+                body { font-size: 11px; }
+                .sub { font-size: 12px; }
+ }
+@media only screen and (min-width: 1280px) {
+                body { font-size: 12px; }
+                .sub { font-size: 13px; }
+ }
+@media only screen and (min-width: 1440px) {
+                body { font-size: 13px; }
+                .sub { font-size: 14px; }
+ }
+
+ /*end of media queries*/
